@@ -20,5 +20,14 @@
 
     <!-- Show dock settings when docked -->
     <bool name="has_dock_settings">true</bool>
+	
+	<!-- Volume Rocker media control support. Some devices do not support this.
+         Setting to false will disable Volume Rocker media control support -->
+    <bool name="config_show_VolumeKeysControlMedia">false</bool>
+	
+    <!-- Volume Rocker Wake support. Some devices do not support this.
+	     Setting to false will disable Volume Rocker Wake support -->
+    <bool name="config_show_volumeRockerWake">false</bool>
+
 
 </resources>
