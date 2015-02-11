@@ -15,9 +15,10 @@
 -->
 
 <resources>
-    <!-- No powercontrol widget for tablets -->
-    <bool name="has_powercontrol_widget">true</bool>
+<!-- Volume Rocker Wake Support. Some devices do not support (PMU) this.
+     Setting to false will disable Volume Rocker Wake support -->
+<bool name="config_show_volumeRockerWake">false</bool>
 
-    <!-- Show dock settings when docked -->
-    <bool name="has_dock_settings">true</bool>
+<!-- Volume Rocker media control Support -->
+<bool name="config_show_VolumeKeysControlMedia">false</bool>
 </resources>
